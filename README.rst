@@ -1,40 +1,27 @@
 tt_dataviews
 ============
-This Django application was generated using the `Texas Tribune's`__ Generic
-Django app template.
+Django class-based views (CBVs) for `Texas Tribune's`__ data applications.
 
 .. __: http://www.texastribune.org/
 
+Note, this is not a complete solution for building data applications like the
+Texas Tribune.  Instead, it's opened as an insight into how we structure part
+of our applications.  It's meant to be a learning tool, not used directly.
 
-Installation & Configuration
-----------------------------
-You can install this using `pip`_ like this:
-
-::
-
-    pip install tt_dataviews
-
-Once installed, you need to add it to your ``INSTALLED_APPS``.  You can do that
-however you like or you can copy-and-paste this in after your
-``INSTALLED_APPS`` are defined.
-
-::
-
-    INSTALLED_APPS += ['tt_dataviews', ]
-
-Now you're ready to start using ``tt_dataviews``.
+That said, if you're interested, feel free to dive in.
 
 
-Usage
------
+Conventions
+-----------
+
+Static Assets
+"""""""""""""
 *TODO*
 
+Landing Pages
+"""""""""""""
+*TODO*
 
-Example
--------
-All of the usage is outlined, along with tests inside the ``example``
-directory.  See that directory for more information on how to run the tests and
-example project.
-
-.. _pip: http://www.pip-installer.org/en/latest/
-
+Detail Pages
+""""""""""""
+*TODO*
