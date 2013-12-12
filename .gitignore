@@ -8,3 +8,4 @@ dist/
 *.pyc
 *.pyo
 .sass-cache
+node_modules/
