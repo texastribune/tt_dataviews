@@ -8,7 +8,9 @@
 {% block content_class %}{{ data_app_name }} explorer{% endblock %}
 
 {% block extra_style %}{{ block.super }}
-  <link rel="stylesheet" type="text/css" href="{% static "tt_dataviews/css/dataviews.css" %}">
+  {% block main_dataviews_css %}
+    <link rel="stylesheet" type="text/css" href="{% static "tt_dataviews/css/app.css" %}">
+  {% endblock %}
 
   {% with data_app_name|add:"/css/app.css" as app_stylesheet %}
     <link rel="stylesheet" type="text/css" href="{% static app_stylesheet %}">
