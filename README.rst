@@ -25,3 +25,26 @@ Landing Pages
 Detail Pages
 """"""""""""
 *TODO*
+
+
+Developing
+----------
+You need `Grunt`_ installed to develop the static assets associated with this
+(see Grunt's `Getting Started`_ guide for more information on setting up Grunt).
+Once you have Grunt installed, you need to install the development packages via
+npm like this::
+
+	npm install .
+
+Once everything is installed, you can build the Sass with this command::
+
+	grunt sass
+
+There is also a convenience method for continually building the Sass files via
+the ``watch`` command like this::
+
+	grunt watch
+
+
+.. _Grunt: http://gruntjs.com/
+.. _Getting Started: http://gruntjs.com/getting-started
