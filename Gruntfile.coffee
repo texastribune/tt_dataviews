@@ -7,6 +7,8 @@ module.exports = (grunt) ->
           "tt_dataviews/static/tt_dataviews/css/app.css": "tt_dataviews/static/tt_dataviews/sass/app.sass"
         options:
           style: "compressed"
+          compass: true
+          bundleExec: true
     watch:
       css:
         files: "tt_dataviews/**/*.s?ss"
