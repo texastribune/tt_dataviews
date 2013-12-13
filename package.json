@@ -1,0 +1,14 @@
+{
+  "name": "tt_dataviews",
+  "version": "0.0.0",
+  "description": "Django class-based views (CBVs) for Texas Tribune's data applications.",
+  "private": true,
+  "scripts": {},
+  "author": "Texas Tribune News Apps",
+  "license": "Apache Public License 2",
+  "devDependencies": {
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

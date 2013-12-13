@@ -27,7 +27,7 @@ for dirpath, dirnames, filenames in os.walk('tt_dataviews'):
 
 setup(
     name='tt_dataviews',
-    version='0.1.0',
+    version='0.2.0',
     description='Texas Tribune: tt_dataviews',
     author='Tribune Tech',
     author_email='tech@texastribune.org',
