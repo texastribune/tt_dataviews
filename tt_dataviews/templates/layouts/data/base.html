@@ -19,7 +19,7 @@
 
 {% block main %}
   {% block header_container %}
-    <header id="{{ data_app_name }}-header" class="explorer_header">
+    <header id="{% block data_app_header_id %}{{ data_app_name }}-header{% endblock %}" class="explorer_header">
       <h1>
         <a href="{{ landing_url }}">{{ app_title }}</a>
         <small>{{ app_tagline }}</small>
